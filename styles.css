@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    background-color: #1d2631;
+    color: #fff;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo i{
+    color: aqua;
+    font-size: 42px;
+    margin-right: 4px;
+}
+
+.navegacao{
+    display: flex;
+}
+.navegacao a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+}
+.navegacao a:hover{
+    color: aqua;
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+}
+.header-icons i{
+    margin-right: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all .55s ease;
+}
+.header-icons i:hover{
+    transform: translateY(-5px);
+}
+
+#menu{
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 10001;
+}
+
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.home-text h1{
+    font-size: 50px;
+}
+.home-text h5{
+    font-size: 20px;
+    color: #9a9b9c;
+}
+.home-text h3{
+    font-size: 50px;
+}
+.btn{
+    color: #000000;
+    background-color: rgb(12, 192, 192);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.home-img img{
+    max-width: 100%;
+    width: 28rem;
+    height: auto;
+    margin-left: 25%;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.main img{
+    width: 60px;
+    height: auto;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.row{
+    background-color: rgb(28, 73, 222);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all.55s ease;
+    display: inline-flex;
+}
+.row:hover{
+    transform: translateY(-8px);
+}
+
+.row2{
+    background-color: rgb(232, 45, 220);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all.55s ease;
+    display: inline-flex;
+}
+.row2:hover{
+    transform: translateY(-8px);
+}
+
+.row3{
+    background-color: rgb(10, 235, 134);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all.55s ease;
+    display: inline-flex;
+}
+.row3:hover{
+    transform: translateY(-8px);
+}
+
+
